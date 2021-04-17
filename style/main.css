@@ -1,0 +1,41 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+  --steel-pink: rgb(123, 45, 124);
+  --true-blue: rgb(25, 74, 143);
+  --ecru: rgb(245, 241, 236);
+}
+
+.page {
+  text-align: center;
+  background: linear-gradient(var(--true-blue), var(--steel-pink));
+  color: var(--ecru);
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.title {
+    margin: 100px 0 0 0;
+    font-weight: 300;
+}
+
+.img {
+    margin: 100px 0;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+
+.input {
+  width: 100px;
+}
