@@ -1,7 +1,6 @@
 :root {
   --base: #ffc600;
   --spacing: 10px;
-  --blur: 10px;
   --invert: 0%;
   --ecru: rgb(245, 241, 236);
 }
@@ -30,7 +29,6 @@
   margin: 100px 0;
   padding: var(--spacing);
   background: var(--base);
-  filter: blur(var(--blur));
   filter: invert(var(--invert));
 }
 
